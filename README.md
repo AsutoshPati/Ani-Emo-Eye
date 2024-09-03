@@ -1,6 +1,12 @@
-# An-Emo-Eye
+# Ani-Emo-Eye 
+(pronounced as AN-i-moh-eye; derived from Animation-Emotion-Eye)
 
 The project is an innovative approach to integrating emotional intelligence into robotics. It features a dynamic robot eye animation displayed on a 0.96" OLED screen that changes based on the sentiment of text input provided by the user. The project is powered by the CAP10 Pratham, a made-in-India microcontroller board.
+
+### Sample Pictures
+| <img src="./sample_pics/pic1.png" alt="pic1" width="300"> | <img src="./sample_pics/pic2.png" alt="pic2" width="300"> | <img src="./sample_pics/pic3.png" alt="pic3" width="300"> |
+| :----------------: | :----------------: | :----------------: |
+| <img src="./sample_pics/pic4.png" alt="pic4" width="300"> | <img src="./sample_pics/pic5.png" alt="pic5" width="300"> | <img src="./sample_pics/pic6.png" alt="pic6" width="300"> |
 
 ### Features
 - **Real-Time Sentiment Analysis:** The system detects the sentiment of the user's text input.
@@ -30,6 +36,10 @@ The project is an innovative approach to integrating emotional intelligence into
 
 ### Installation
 - **Software Setup**
+    - Ensure Git LFS is installed if it hasn't been set up previously
+        ```bash
+        git lfs install
+        ```
     - Clone this repository:
         ```bash
         git clone https://github.com/AsutoshPati/An-Emo-Eye.git
