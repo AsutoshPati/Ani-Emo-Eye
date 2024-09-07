@@ -9,7 +9,7 @@ The project is an innovative approach to integrating emotional intelligence into
 | <img src="./sample_pics/pic4.png" alt="pic4" width="300"> | <img src="./sample_pics/pic5.png" alt="pic5" width="300"> | <img src="./sample_pics/pic6.png" alt="pic6" width="300"> |
 
 ### Features
-- **Real-Time Sentiment Analysis:** The system detects the sentiment of the user's text input.
+- **Real-Time Sentiment Analysis:** The system detects the sentiment from the user's speech and converts it into text for analysis.
 - **Emotional Intelligence:** Enhances user interaction by allowing the robot to visually express emotions.
 - **Compact Design:** Utilizes a 0.96" OLED screen for a minimalistic yet effective display.
 - **Cost-Effective:** Built using the CAP10 Pratham board, making it an affordable solution for integrating emotional responses into robotics.
@@ -31,7 +31,7 @@ The project is an innovative approach to integrating emotional intelligence into
 
 ### How It Works
 - **Train Model (Optional):** Users can train the model using the dataset available in the [data](./data) directory or with their own data in the same format. Upon completion, they will receive the trained model for making predictions.
-- **Sentiment Analysis:** The user provides a text input, then the sentiment of the text is analyzed using an LSTM model trained in the previous step.
+- **Sentiment Analysis:** The user provides a speech input which will transcribed by the WhisperX model to generate text script, then the sentiment of the text is analyzed using an LSTM model trained in the previous step.
 - **Animation Update:** The CAP10 Pratham board receives the sentiment result by an API call and updates the OLED display with the corresponding eye animation (e.g., happy, sad, surprised).
 
 ### Installation
